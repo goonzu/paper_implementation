@@ -4,7 +4,7 @@
 코드들은 일반적으로 opensource 를 참고하여 만들었으며,
 출처는 이곳에 정의됩니다.
 
-## paper_implementation/NLP/Attention is all you need
+## NLP/Attention is all you need
 https://github.com/bentrevett/pytorch-seq2seq/
 https://github.com/spro/practical-pytorch
 https://github.com/keon/seq2seq
