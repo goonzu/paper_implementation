@@ -1,4 +1,6 @@
 # paper_implementation
+논문을 읽고 구현하는 Repository 입니다.
+환경은 colab(.ipynb)이 일반적이지만 vscode 환경에서 돌린 일반적인 .py 파일이 올라갈 수도 있습니다.
 
 # Reference
 코드들은 일반적으로 opensource 를 참고하여 만들었으며,
