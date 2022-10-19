@@ -6,6 +6,11 @@
 코드들은 일반적으로 opensource 를 참고하여 만들었으며,
 출처는 이곳에 정의됩니다.
 
+## CLIP
+https://github.com/openai/CLIP
+
+https://arxiv.org/abs/2103.00020
+
 ## NLP/Attention is all you need
 https://github.com/bentrevett/pytorch-seq2seq/
 
