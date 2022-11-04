@@ -2,5 +2,6 @@ datasets
 CLIP/CIFAR/test/*
 
 # ignore pycache
+~/CLIP/clip/__pycache__/*
 __pycache__/
 *.py[cod]

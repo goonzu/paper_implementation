@@ -20,13 +20,13 @@ print(labels.shape)
 for idx, (data, label) in enumerate(cifar100):
     images.append(preprocess(data))
     ground_truth_labels.append([label, classes[label]])
-    if idx == 999:
+    if idx == 99:
         break
 image_input = torch.tensor(np.stack(images))
 print(image_input.shape)
 
 with torch.no_grad():
-    image_features = model.encode_image(image_input).float() # shape : [5, 1024]
+    image_features = model.encode_image(image_input).float() # shape : [100, 1024]
     text_features = model.encode_text(labels).float() # shape : [100, 1024]
 image_features /= image_features.norm(dim=-1, keepdim=True)
 text_features /= text_features.norm(dim=-1, keepdim=True)
