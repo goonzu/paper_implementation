@@ -1,2 +1,6 @@
 datasets
-NLP
+CLIP/CIFAR/test/*
+
+# ignore pycache
+__pycache__/
+*.py[cod]
