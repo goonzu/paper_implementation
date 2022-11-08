@@ -5,3 +5,7 @@ CLIP/CIFAR/test/*
 ~/CLIP/clip/__pycache__/*
 __pycache__/
 *.py[cod]
+
+prac_can_delete_**.py
+
+test_results.txt
